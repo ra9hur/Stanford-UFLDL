@@ -1,0 +1,5329 @@
+octave:3> clear ; close all; clc
+octave:4> whos
+octave:5> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+cost =  326.63
+cost =  736.75
+cost =  736.75
+cost =  123.22
+cost =  123.22
+cost =  110.54
+cost =  110.54
+cost =  100.62
+cost =  100.62
+cost =  93.438
+cost =  93.439
+cost =  93.438
+cost =  88.490
+cost =  88.490
+cost =  84.630
+cost =  84.630
+cost =  81.309
+cost =  81.309
+cost =  81.309
+cost =  76.492
+cost =  76.492
+cost =  72.159
+cost =  72.159
+cost =  62.754
+cost =  62.754
+cost =  60.508
+cost =  60.508
+cost =  60.258
+cost =  60.258
+cost =  60.258
+cost =  38.848
+cost =  38.848
+cost =  35.935
+cost =  35.935
+cost =  35.935
+cost =  33.251
+cost =  33.251
+cost =  35.910
+cost =  35.910
+cost =  33.233
+cost =  33.233
+cost =  33.233
+cost =  31.773
+cost =  31.773
+cost =  31.774
+cost =  31.774
+cost =  31.557
+cost =  31.557
+cost =  31.557
+cost =  30.765
+cost =  30.765
+cost =  31.336
+cost =  31.336
+cost =  30.749
+cost =  30.749
+cost =  30.749
+cost =  30.272
+cost =  30.272
+cost =  30.153
+cost =  30.153
+cost =  30.149
+cost =  30.149
+cost =  30.149
+cost =  29.730
+cost =  29.730
+cost =  29.475
+cost =  29.475
+cost =  29.395
+cost =  29.395
+cost =  29.395
+cost =  28.836
+cost =  28.836
+cost =  28.410
+cost =  28.410
+cost =  27.852
+cost =  27.852
+cost =  27.852
+cost =  27.289
+cost =  27.289
+cost =  27.306
+cost =  27.306
+cost =  27.226
+cost =  27.226
+cost =  27.226
+cost =  27.441
+cost =  27.441
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  28.216
+cost =  28.216
+cost =  27.131
+cost =  27.131
+cost =  27.097
+cost =  27.097
+cost =  27.093
+cost =  27.093
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+cost =  27.092
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 13
+        Function Count : 121
+        Minimum found : 27.092
+        Intern Time : 2.6234 seconds
+        Total Time : 8.608 seconds
+l =  100
+cost =  28.460
+cost =  29.790
+cost =  29.790
+cost =  28.300
+cost =  28.300
+cost =  28.284
+cost =  28.284
+cost =  28.284
+cost =  28.218
+cost =  28.218
+cost =  28.194
+cost =  28.194
+cost =  28.194
+cost =  28.116
+cost =  28.116
+cost =  28.091
+
+octave:5> clear ; close all; clc
+octave:6> whos
+octave:7> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+cost =  316.41
+cost =  721.77
+cost =  721.78
+cost =  119.11
+cost =  119.11
+cost =  107.35
+cost =  107.35
+cost =  98.311
+cost =  98.311
+cost =  91.952
+cost =  91.952
+cost =  91.952
+cost =  87.690
+cost =  87.690
+cost =  84.354
+cost =  84.354
+cost =  81.341
+cost =  81.341
+cost =  81.341
+cost =  76.608
+cost =  76.608
+cost =  72.287
+cost =  72.287
+cost =  62.447
+cost =  62.447
+cost =  58.840
+cost =  58.840
+cost =  58.840
+cost =  37.882
+cost =  37.882
+cost =  36.868
+cost =  36.868
+cost =  36.868
+cost =  34.025
+cost =  34.025
+cost =  33.998
+cost =  33.998
+cost =  33.618
+cost =  33.618
+cost =  33.618
+cost =  31.916
+cost =  31.916
+cost =  31.916
+cost =  30.909
+cost =  30.909
+cost =  31.480
+cost =  31.480
+cost =  30.887
+cost =  30.887
+cost =  30.887
+cost =  30.322
+cost =  30.322
+cost =  30.020
+cost =  30.020
+cost =  29.966
+cost =  29.966
+cost =  29.957
+cost =  29.957
+cost =  29.957
+cost =  29.575
+cost =  29.575
+cost =  29.535
+cost =  29.535
+cost =  29.510
+cost =  29.510
+cost =  29.510
+cost =  29.093
+cost =  29.093
+cost =  28.959
+cost =  28.959
+cost =  28.959
+cost =  27.878
+cost =  27.878
+cost =  27.269
+cost =  27.269
+cost =  27.075
+cost =  27.075
+cost =  27.075
+cost =  26.857
+cost =  26.857
+cost =  26.751
+cost =  26.751
+cost =  26.736
+cost =  26.736
+cost =  26.736
+cost =  27.064
+cost =  27.064
+cost =  26.738
+cost =  26.738
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  28.852
+cost =  28.852
+cost =  26.758
+cost =  26.758
+cost =  26.736
+cost =  26.736
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+cost =  26.734
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 14
+        Function Count : 146
+        Minimum found : 26.734
+        Intern Time : 2.977 seconds
+        Total Time : 9.9408 seconds
+l =  100
+cost =  28.062
+cost =  29.213
+cost =  29.213
+cost =  27.890
+cost =  27.890
+cost =  27.881
+cost =  27.881
+cost =  27.881
+cost =  27.824
+cost =  27.824
+cost =  27.795
+cost =  27.795
+cost =  27.795
+cost =  27.772
+cost =  27.772
+cost =  27.679
+cost =  27.679
+cost =  27.679
+cost =  27.819
+
+octave:7> clear ; close all; clc
+octave:8> whos
+octave:9> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+error: sparseAutoencoderCost: operator +: nonconformant arguments (op1 is 784x200, op2 is 200x200)
+error: called from:
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\sparseAutoencoderCost.m at line 96, column 10
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 745, column 23
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 168, column 16
+error:   D:\Books\Technical\DeepLearning\DLprograms\stackedae_exercise\stackedAEExercise.m at line 81, column 22
+octave:9> clear ; close all; clc
+octave:10> whos
+octave:11> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+cost =  317.03
+cost =  724.79
+cost =  724.79
+cost =  119.31
+cost =  119.31
+cost =  107.51
+cost =  107.51
+cost =  98.425
+cost =  98.426
+cost =  92.038
+cost =  92.039
+cost =  92.038
+cost =  87.769
+cost =  87.769
+cost =  84.434
+cost =  84.434
+cost =  81.445
+cost =  81.445
+cost =  81.445
+cost =  76.718
+cost =  76.718
+cost =  72.389
+cost =  72.389
+cost =  62.449
+cost =  62.449
+cost =  58.646
+cost =  58.646
+cost =  58.646
+cost =  37.932
+cost =  37.932
+cost =  36.957
+cost =  36.957
+cost =  36.957
+cost =  34.192
+cost =  34.192
+cost =  34.958
+cost =  34.958
+cost =  34.016
+cost =  34.016
+cost =  34.016
+cost =  32.232
+cost =  32.232
+cost =  32.232
+cost =  31.137
+cost =  31.137
+cost =  31.137
+cost =  30.446
+cost =  30.446
+cost =  30.282
+cost =  30.282
+cost =  30.270
+cost =  30.270
+cost =  30.270
+cost =  29.861
+cost =  29.861
+cost =  29.703
+cost =  29.703
+cost =  29.703
+cost =  29.251
+cost =  29.251
+cost =  28.917
+cost =  28.917
+cost =  28.630
+cost =  28.630
+cost =  28.630
+cost =  27.612
+cost =  27.612
+cost =  27.301
+cost =  27.301
+cost =  27.301
+cost =  27.056
+cost =  27.056
+cost =  27.056
+cost =  28.331
+cost =  28.331
+cost =  27.009
+cost =  27.009
+cost =  27.009
+cost =  30.700
+cost =  30.700
+cost =  27.029
+cost =  27.029
+cost =  27.008
+cost =  27.008
+cost =  27.008
+cost =  30.275
+cost =  30.275
+cost =  27.026
+cost =  27.026
+cost =  27.007
+cost =  27.007
+cost =  27.007
+cost =  31.928
+cost =  31.928
+cost =  27.024
+cost =  27.024
+cost =  27.003
+cost =  27.003
+cost =  27.003
+cost =  30.162
+cost =  30.162
+cost =  27.005
+cost =  27.005
+cost =  26.994
+cost =  26.994
+cost =  26.994
+cost =  30.799
+cost =  30.799
+cost =  26.998
+cost =  26.998
+cost =  26.987
+cost =  26.987
+cost =  26.987
+cost =  30.256
+cost =  30.256
+cost =  26.974
+cost =  26.974
+cost =  26.974
+cost =  30.040
+cost =  30.040
+cost =  26.948
+cost =  26.948
+cost =  26.948
+cost =  28.255
+cost =  28.255
+cost =  26.945
+cost =  26.945
+cost =  26.945
+cost =  30.560
+cost =  30.560
+cost =  26.923
+cost =  26.923
+cost =  26.923
+cost =  27.111
+cost =  27.111
+cost =  26.833
+cost =  26.833
+cost =  26.833
+cost =  28.848
+cost =  28.848
+cost =  26.754
+cost =  26.754
+cost =  26.738
+cost =  26.738
+cost =  26.738
+cost =  26.303
+cost =  26.303
+cost =  26.220
+cost =  26.220
+cost =  26.200
+cost =  26.200
+cost =  26.200
+cost =  26.017
+cost =  26.017
+cost =  25.806
+cost =  25.806
+cost =  25.781
+cost =  25.781
+cost =  25.771
+cost =  25.771
+cost =  25.771
+cost =  25.123
+cost =  25.123
+cost =  24.818
+cost =  24.818
+cost =  24.802
+cost =  24.802
+cost =  24.777
+cost =  24.777
+cost =  24.777
+cost =  23.980
+cost =  23.980
+cost =  23.774
+cost =  23.774
+cost =  23.774
+cost =  23.182
+cost =  23.182
+cost =  23.257
+cost =  23.257
+cost =  23.140
+cost =  23.140
+cost =  23.140
+cost =  23.030
+cost =  23.030
+cost =  23.030
+cost =  22.973
+cost =  22.973
+cost =  22.951
+cost =  22.951
+cost =  22.951
+cost =  22.864
+cost =  22.864
+cost =  22.796
+cost =  22.796
+cost =  22.679
+cost =  22.679
+cost =  22.666
+cost =  22.666
+cost =  22.666
+cost =  22.374
+cost =  22.374
+cost =  22.374
+cost =  22.206
+cost =  22.206
+cost =  22.206
+cost =  22.115
+cost =  22.115
+cost =  22.071
+cost =  22.071
+cost =  22.064
+cost =  22.064
+cost =  22.064
+cost =  21.842
+cost =  21.842
+cost =  21.864
+cost =  21.864
+cost =  21.822
+cost =  21.822
+cost =  21.822
+cost =  21.526
+cost =  21.526
+cost =  21.430
+cost =  21.430
+cost =  21.430
+cost =  21.096
+cost =  21.096
+cost =  20.872
+cost =  20.872
+cost =  20.714
+cost =  20.714
+cost =  20.714
+cost =  20.171
+cost =  20.171
+cost =  19.811
+cost =  19.811
+cost =  19.640
+cost =  19.640
+cost =  19.640
+cost =  19.265
+cost =  19.265
+cost =  19.249
+cost =  19.249
+cost =  19.214
+cost =  19.214
+cost =  19.214
+cost =  18.912
+cost =  18.912
+cost =  18.674
+cost =  18.674
+cost =  18.355
+cost =  18.355
+cost =  18.355
+cost =  18.482
+cost =  18.482
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.647
+cost =  18.647
+cost =  18.330
+cost =  18.330
+cost =  18.315
+cost =  18.315
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+cost =  18.314
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 43
+        Function Count : 285
+        Minimum found : 18.314
+        Intern Time : 13.256 seconds
+        Total Time : 27.03 seconds
+l =  100
+cost =  22.244
+cost =  23.956
+cost =  23.956
+cost =  21.588
+cost =  21.588
+cost =  21.588
+cost =  21.480
+cost =  21.480
+cost =  21.475
+cost =  21.475
+cost =  21.464
+cost =  21.464
+cost =  21.464
+cost =  21.398
+cost =  21.398
+cost =  21.372
+cost =  21.372
+cost =  21.372
+cost =  21.225
+cost =  21.225
+cost =  21.225
+cost =  21.141
+cost =  21.141
+cost =  21.048
+cost =  21.048
+cost =  21.039
+cost =  21.039
+cost =  21.039
+cost =  21.441
+cost =  21.441
+cost =  20.888
+cost =  20.888
+cost =  20.888
+cost =  20.905
+cost =  20.905
+cost =  20.819
+cost =  20.819
+cost =  20.819
+cost =  20.876
+cost =  20.876
+cost =  20.810
+cost =  20.810
+cost =  20.810
+cost =  20.874
+cost =  20.874
+cost =  20.806
+cost =  20.806
+cost =  20.806
+cost =  20.865
+cost =  20.865
+cost =  20.798
+cost =  20.798
+cost =  20.798
+cost =  20.877
+cost =  20.877
+cost =  20.791
+cost =  20.791
+cost =  20.791
+cost =  20.882
+cost =  20.882
+cost =  20.778
+cost =  20.778
+cost =  20.778
+cost =  20.873
+cost =  20.873
+cost =  20.760
+cost =  20.760
+cost =  20.760
+cost =  20.801
+cost =  20.801
+cost =  20.727
+cost =  20.727
+cost =  20.727
+cost =  20.741
+cost =  20.741
+cost =  20.677
+cost =  20.677
+cost =  20.677
+cost =  20.569
+cost =  20.569
+cost =  20.569
+cost =  20.418
+cost =  20.418
+cost =  20.515
+cost =  20.515
+cost =  20.417
+cost =  20.417
+cost =  20.417
+cost =  20.261
+cost =  20.261
+cost =  20.189
+cost =  20.189
+cost =  20.200
+cost =  20.200
+cost =  20.184
+cost =  20.184
+cost =  20.184
+cost =  20.151
+cost =  20.151
+cost =  20.151
+cost =  20.130
+cost =  20.130
+cost =  20.114
+cost =  20.114
+cost =  20.097
+cost =  20.097
+cost =  20.097
+cost =  20.018
+cost =  20.018
+cost =  19.948
+cost =  19.948
+cost =  19.797
+cost =  19.797
+cost =  19.722
+cost =  19.722
+cost =  19.722
+cost =  19.488
+cost =  19.488
+cost =  19.410
+cost =  19.410
+cost =  19.410
+cost =  19.292
+cost =  19.292
+cost =  19.238
+cost =  19.238
+cost =  19.249
+cost =  19.249
+cost =  19.234
+cost =  19.234
+cost =  19.234
+cost =  19.223
+cost =  19.223
+cost =  19.220
+cost =  19.220
+cost =  19.219
+cost =  19.219
+cost =  19.219
+cost =  19.203
+cost =  19.203
+cost =  19.202
+cost =  19.202
+cost =  19.201
+cost =  19.201
+cost =  19.201
+cost =  19.163
+cost =  19.163
+cost =  19.127
+cost =  19.127
+cost =  19.027
+cost =  19.027
+cost =  18.802
+cost =  18.802
+cost =  18.702
+cost =  18.702
+cost =  18.702
+cost =  18.550
+cost =  18.550
+cost =  18.544
+cost =  18.544
+cost =  18.544
+cost =  18.459
+cost =  18.459
+cost =  18.454
+cost =  18.454
+cost =  18.446
+cost =  18.446
+cost =  18.446
+cost =  18.272
+cost =  18.272
+cost =  18.118
+cost =  18.118
+cost =  17.787
+cost =  17.787
+cost =  17.661
+cost =  17.661
+cost =  17.661
+cost =  18.078
+cost =  18.078
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  18.191
+cost =  18.191
+cost =  17.660
+cost =  17.660
+cost =  17.648
+cost =  17.648
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+cost =  17.647
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 31
+        Function Count : 215
+        Minimum found : 17.647
+        Intern Time : 8.7199 seconds
+        Total Time : 20.228 seconds
+l =  200
+cost =  22.041
+cost =  24.520
+cost =  24.520
+cost =  21.211
+cost =  21.211
+cost =  21.211
+cost =  21.123
+cost =  21.123
+cost =  21.084
+cost =  21.084
+cost =  21.084
+cost =  20.933
+cost =  20.933
+cost =  20.829
+cost =  20.829
+cost =  20.755
+cost =  20.755
+cost =  20.755
+cost =  20.174
+cost =  20.174
+cost =  19.992
+cost =  19.992
+cost =  19.992
+cost =  20.815
+cost =  20.815
+cost =  19.834
+cost =  19.834
+cost =  19.809
+cost =  19.809
+cost =  19.809
+cost =  19.658
+cost =  19.658
+cost =  19.647
+cost =  19.647
+cost =  19.636
+cost =  19.636
+cost =  19.636
+cost =  19.575
+cost =  19.575
+cost =  19.536
+cost =  19.536
+cost =  19.520
+cost =  19.520
+cost =  19.520
+cost =  19.374
+cost =  19.374
+cost =  19.403
+cost =  19.403
+cost =  19.363
+cost =  19.363
+cost =  19.363
+cost =  18.969
+cost =  18.969
+cost =  18.758
+cost =  18.758
+cost =  18.735
+cost =  18.735
+cost =  18.721
+cost =  18.721
+cost =  18.721
+cost =  18.865
+cost =  18.865
+cost =  18.505
+cost =  18.505
+cost =  18.499
+cost =  18.499
+cost =  18.499
+cost =  18.419
+cost =  18.419
+cost =  18.419
+cost =  18.378
+cost =  18.378
+cost =  18.396
+cost =  18.396
+cost =  18.377
+cost =  18.377
+cost =  18.377
+cost =  18.325
+cost =  18.325
+cost =  18.303
+cost =  18.303
+cost =  18.303
+cost =  18.213
+cost =  18.213
+cost =  18.176
+cost =  18.176
+cost =  18.176
+cost =  18.091
+cost =  18.091
+cost =  18.074
+cost =  18.074
+cost =  18.072
+cost =  18.072
+cost =  18.072
+cost =  18.028
+cost =  18.028
+cost =  18.020
+cost =  18.020
+cost =  18.019
+cost =  18.019
+cost =  18.019
+cost =  17.914
+cost =  17.914
+cost =  17.895
+cost =  17.895
+cost =  17.891
+cost =  17.891
+cost =  17.891
+cost =  17.796
+cost =  17.796
+cost =  17.795
+cost =  17.795
+cost =  17.795
+cost =  17.736
+cost =  17.736
+cost =  17.713
+cost =  17.713
+cost =  17.713
+cost =  17.695
+cost =  17.695
+cost =  17.690
+cost =  17.690
+cost =  17.690
+cost =  17.642
+cost =  17.642
+cost =  17.606
+cost =  17.606
+cost =  17.590
+cost =  17.590
+cost =  17.589
+cost =  17.589
+cost =  17.589
+cost =  17.433
+cost =  17.433
+cost =  17.391
+cost =  17.391
+cost =  17.390
+cost =  17.390
+cost =  17.390
+cost =  17.363
+cost =  17.363
+cost =  17.356
+cost =  17.356
+cost =  17.354
+cost =  17.354
+cost =  17.354
+cost =  17.328
+cost =  17.328
+cost =  17.329
+cost =  17.329
+cost =  17.325
+cost =  17.325
+cost =  17.325
+cost =  17.177
+cost =  17.177
+cost =  17.086
+cost =  17.086
+cost =  17.065
+cost =  17.065
+cost =  17.063
+cost =  17.063
+cost =  17.063
+cost =  17.032
+cost =  17.032
+cost =  17.012
+cost =  17.012
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.060
+cost =  17.060
+cost =  17.013
+cost =  17.013
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+cost =  17.009
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 27
+        Function Count : 195
+        Minimum found : 17.009
+        Intern Time : 7.3337 seconds
+        Total Time : 16.497 seconds
+l =  300
+cost =  21.105
+cost =  30.829
+cost =  30.829
+cost =  18.926
+cost =  18.926
+cost =  18.926
+cost =  18.846
+cost =  18.846
+cost =  18.823
+cost =  18.823
+cost =  18.823
+cost =  18.709
+cost =  18.709
+cost =  18.622
+cost =  18.622
+cost =  18.541
+cost =  18.541
+cost =  18.541
+cost =  18.006
+cost =  18.006
+cost =  17.646
+cost =  17.646
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  18.340
+cost =  18.340
+cost =  17.300
+cost =  17.300
+cost =  17.273
+cost =  17.273
+cost =  17.273
+cost =  17.178
+cost =  17.178
+cost =  17.152
+cost =  17.152
+cost =  17.152
+cost =  17.084
+cost =  17.084
+cost =  17.033
+cost =  17.033
+cost =  16.976
+cost =  16.976
+cost =  16.976
+cost =  16.775
+cost =  16.775
+cost =  16.627
+cost =  16.627
+cost =  16.451
+cost =  16.451
+cost =  16.451
+cost =  16.042
+cost =  16.042
+cost =  15.945
+cost =  15.945
+cost =  15.941
+cost =  15.941
+cost =  15.941
+cost =  15.850
+cost =  15.850
+cost =  15.901
+cost =  15.901
+cost =  15.849
+cost =  15.849
+cost =  15.849
+cost =  15.813
+cost =  15.813
+cost =  15.791
+cost =  15.791
+cost =  15.784
+cost =  15.784
+cost =  15.784
+cost =  15.775
+cost =  15.775
+cost =  15.775
+cost =  15.770
+cost =  15.770
+cost =  15.769
+cost =  15.769
+cost =  15.769
+cost =  15.755
+cost =  15.755
+cost =  15.755
+cost =  15.719
+cost =  15.719
+cost =  15.727
+cost =  15.727
+cost =  15.717
+cost =  15.717
+cost =  15.717
+cost =  15.657
+cost =  15.657
+cost =  15.657
+cost =  15.612
+cost =  15.612
+cost =  15.605
+cost =  15.605
+cost =  15.603
+cost =  15.603
+cost =  15.603
+cost =  15.583
+cost =  15.583
+cost =  15.583
+cost =  15.558
+cost =  15.558
+cost =  15.551
+cost =  15.551
+cost =  15.551
+cost =  15.551
+cost =  15.551
+cost =  15.544
+cost =  15.544
+cost =  15.543
+cost =  15.543
+cost =  15.542
+cost =  15.542
+cost =  15.542
+cost =  15.533
+cost =  15.533
+cost =  15.530
+cost =  15.530
+cost =  15.530
+cost =  15.473
+cost =  15.473
+cost =  15.442
+cost =  15.442
+cost =  15.437
+cost =  15.437
+cost =  15.436
+cost =  15.436
+cost =  15.436
+cost =  15.541
+cost =  15.541
+cost =  15.426
+cost =  15.426
+cost =  15.423
+cost =  15.423
+cost =  15.423
+cost =  15.406
+cost =  15.406
+cost =  15.406
+cost =  15.394
+cost =  15.394
+cost =  15.392
+cost =  15.392
+cost =  15.391
+cost =  15.391
+cost =  15.391
+cost =  15.380
+cost =  15.380
+cost =  15.380
+cost =  15.380
+cost =  15.379
+cost =  15.379
+cost =  15.379
+cost =  15.358
+cost =  15.358
+cost =  15.346
+cost =  15.346
+cost =  15.344
+cost =  15.344
+cost =  15.344
+cost =  15.344
+cost =  15.344
+cost =  15.267
+cost =  15.267
+cost =  15.202
+cost =  15.202
+cost =  15.084
+cost =  15.084
+cost =  15.087
+cost =  15.087
+cost =  15.070
+cost =  15.070
+cost =  15.070
+cost =  15.144
+cost =  15.144
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.144
+cost =  15.144
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.140
+cost =  15.140
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.143
+cost =  15.143
+cost =  15.067
+cost =  15.067
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+cost =  15.066
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 32
+        Function Count : 232
+        Minimum found : 15.066
+        Intern Time : 9.1057 seconds
+        Total Time : 19.944 seconds
+l =  400
+cost =  21.905
+cost =  25.892
+cost =  25.892
+cost =  20.475
+cost =  20.475
+cost =  20.475
+cost =  20.392
+cost =  20.392
+cost =  20.380
+cost =  20.380
+cost =  20.376
+cost =  20.376
+cost =  20.376
+cost =  20.296
+cost =  20.296
+cost =  20.225
+cost =  20.225
+cost =  20.063
+cost =  20.063
+cost =  19.962
+cost =  19.962
+cost =  19.962
+cost =  19.508
+cost =  19.508
+cost =  19.508
+cost =  19.287
+cost =  19.287
+cost =  19.287
+cost =  19.170
+cost =  19.170
+cost =  19.194
+cost =  19.194
+cost =  19.163
+cost =  19.163
+cost =  19.163
+cost =  19.107
+cost =  19.107
+cost =  19.088
+cost =  19.088
+cost =  19.088
+cost =  18.992
+cost =  18.992
+cost =  18.917
+cost =  18.917
+cost =  18.813
+cost =  18.813
+cost =  18.813
+cost =  18.467
+cost =  18.467
+cost =  18.594
+cost =  18.594
+cost =  18.457
+cost =  18.457
+cost =  18.457
+cost =  18.299
+cost =  18.299
+cost =  18.376
+cost =  18.376
+cost =  18.296
+cost =  18.296
+cost =  18.296
+cost =  18.279
+cost =  18.279
+cost =  18.279
+cost =  18.246
+cost =  18.246
+cost =  18.246
+cost =  18.183
+cost =  18.183
+cost =  18.183
+cost =  18.089
+cost =  18.089
+cost =  18.045
+cost =  18.045
+cost =  18.056
+cost =  18.056
+cost =  18.042
+cost =  18.042
+cost =  18.042
+cost =  17.955
+cost =  17.955
+cost =  17.976
+cost =  17.976
+cost =  17.951
+cost =  17.951
+cost =  17.951
+cost =  17.936
+cost =  17.936
+cost =  17.936
+cost =  17.903
+cost =  17.903
+cost =  17.903
+cost =  17.869
+cost =  17.869
+cost =  17.889
+cost =  17.889
+cost =  17.869
+cost =  17.869
+cost =  17.869
+cost =  17.843
+cost =  17.843
+cost =  17.832
+cost =  17.832
+cost =  17.834
+cost =  17.834
+cost =  17.831
+cost =  17.831
+cost =  17.831
+cost =  17.812
+cost =  17.812
+cost =  17.799
+cost =  17.799
+cost =  17.789
+cost =  17.789
+cost =  17.789
+cost =  17.757
+cost =  17.757
+cost =  17.733
+cost =  17.733
+cost =  17.705
+cost =  17.705
+cost =  17.705
+cost =  17.658
+cost =  17.658
+cost =  17.634
+cost =  17.634
+cost =  17.633
+cost =  17.633
+cost =  17.631
+cost =  17.631
+cost =  17.631
+cost =  17.556
+cost =  17.556
+cost =  17.505
+cost =  17.505
+cost =  17.484
+cost =  17.484
+cost =  17.484
+cost =  17.484
+cost =  17.484
+cost =  17.491
+cost =  17.491
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.513
+cost =  17.513
+cost =  17.475
+cost =  17.475
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+cost =  17.473
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 25
+        Function Count : 169
+        Minimum found : 17.473
+        Intern Time : 6.4811 seconds
+        Total Time : 14.396 seconds
+l =  500
+cost =  21.723
+cost =  24.968
+cost =  24.968
+cost =  19.996
+cost =  19.996
+cost =  19.947
+cost =  19.947
+cost =  19.947
+cost =  19.823
+cost =  19.823
+cost =  19.889
+cost =  19.889
+cost =  19.821
+cost =  19.821
+cost =  19.821
+cost =  19.779
+cost =  19.779
+cost =  19.744
+cost =  19.744
+cost =  19.679
+cost =  19.679
+cost =  19.677
+cost =  19.677
+cost =  19.670
+cost =  19.670
+cost =  19.670
+cost =  19.377
+cost =  19.377
+cost =  19.215
+cost =  19.215
+cost =  19.182
+cost =  19.182
+cost =  19.182
+cost =  21.824
+cost =  21.824
+cost =  19.103
+cost =  19.103
+cost =  19.099
+cost =  19.099
+cost =  19.093
+cost =  19.093
+cost =  19.093
+cost =  18.974
+cost =  18.974
+cost =  19.023
+cost =  19.023
+cost =  18.970
+cost =  18.970
+cost =  18.970
+cost =  18.941
+cost =  18.941
+cost =  18.921
+cost =  18.921
+cost =  18.904
+cost =  18.904
+cost =  18.904
+cost =  18.777
+cost =  18.777
+cost =  18.665
+cost =  18.665
+cost =  18.413
+cost =  18.413
+cost =  18.300
+cost =  18.300
+cost =  18.300
+cost =  18.221
+cost =  18.221
+cost =  18.106
+cost =  18.106
+cost =  18.093
+cost =  18.093
+cost =  18.088
+cost =  18.088
+cost =  18.088
+cost =  18.020
+cost =  18.020
+cost =  18.020
+cost =  17.997
+cost =  17.997
+cost =  17.986
+cost =  17.986
+cost =  17.987
+cost =  17.987
+cost =  17.985
+cost =  17.985
+cost =  17.985
+cost =  17.968
+cost =  17.968
+cost =  17.958
+cost =  17.958
+cost =  17.955
+cost =  17.955
+cost =  17.955
+cost =  17.907
+cost =  17.907
+cost =  17.862
+cost =  17.862
+cost =  17.746
+cost =  17.746
+cost =  17.584
+cost =  17.584
+cost =  17.584
+cost =  17.793
+cost =  17.793
+cost =  17.527
+cost =  17.527
+cost =  17.528
+cost =  17.528
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.591
+cost =  17.591
+cost =  17.530
+cost =  17.530
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+cost =  17.527
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 15
+        Function Count : 137
+        Minimum found : 17.527
+        Intern Time : 3.2028 seconds
+        Total Time : 9.6584 seconds
+l =  600
+cost =  20.707
+cost =  23.647
+cost =  23.647
+cost =  20.047
+cost =  20.047
+cost =  20.047
+cost =  20.047
+cost =  20.038
+cost =  20.038
+cost =  20.038
+cost =  19.981
+cost =  19.981
+cost =  19.960
+cost =  19.960
+cost =  19.960
+cost =  19.879
+cost =  19.879
+cost =  19.811
+cost =  19.811
+cost =  19.681
+cost =  19.681
+cost =  19.661
+cost =  19.661
+cost =  19.655
+cost =  19.655
+cost =  19.655
+cost =  19.181
+cost =  19.181
+cost =  19.283
+cost =  19.283
+cost =  19.150
+cost =  19.150
+cost =  19.150
+cost =  18.962
+cost =  18.962
+cost =  18.955
+cost =  18.955
+cost =  18.955
+cost =  18.907
+cost =  18.907
+cost =  18.909
+cost =  18.909
+cost =  18.902
+cost =  18.902
+cost =  18.902
+cost =  18.874
+cost =  18.874
+cost =  18.847
+cost =  18.847
+cost =  18.775
+cost =  18.775
+cost =  18.637
+cost =  18.637
+cost =  18.623
+cost =  18.623
+cost =  18.613
+cost =  18.613
+cost =  18.613
+cost =  18.169
+cost =  18.169
+cost =  17.986
+cost =  17.986
+cost =  18.050
+cost =  18.050
+cost =  17.979
+cost =  17.979
+cost =  17.979
+cost =  17.912
+cost =  17.912
+cost =  17.896
+cost =  17.896
+cost =  17.893
+cost =  17.893
+cost =  17.893
+cost =  17.896
+cost =  17.896
+cost =  17.890
+cost =  17.890
+cost =  17.890
+cost =  17.893
+cost =  17.893
+cost =  17.889
+cost =  17.889
+cost =  17.889
+cost =  17.888
+cost =  17.888
+cost =  17.886
+cost =  17.886
+cost =  17.886
+cost =  17.879
+cost =  17.879
+cost =  17.879
+cost =  17.852
+cost =  17.852
+cost =  17.845
+cost =  17.845
+cost =  17.845
+cost =  17.771
+cost =  17.771
+cost =  17.741
+cost =  17.741
+cost =  17.753
+cost =  17.753
+cost =  17.740
+cost =  17.740
+cost =  17.740
+cost =  17.612
+cost =  17.612
+cost =  17.605
+cost =  17.605
+cost =  17.593
+cost =  17.593
+cost =  17.593
+cost =  17.590
+cost =  17.590
+cost =  17.589
+cost =  17.589
+cost =  17.589
+cost =  17.589
+cost =  17.589
+cost =  17.583
+cost =  17.583
+cost =  17.583
+cost =  17.583
+cost =  17.582
+cost =  17.582
+cost =  17.582
+cost =  17.578
+cost =  17.578
+cost =  17.575
+cost =  17.575
+cost =  17.566
+cost =  17.566
+cost =  17.552
+cost =  17.552
+cost =  17.555
+cost =  17.555
+cost =  17.551
+cost =  17.551
+cost =  17.551
+cost =  17.451
+cost =  17.451
+cost =  17.381
+cost =  17.381
+cost =  17.336
+cost =  17.336
+cost =  17.336
+cost =  17.330
+cost =  17.330
+cost =  17.305
+cost =  17.305
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.346
+cost =  17.346
+cost =  17.306
+cost =  17.306
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+cost =  17.303
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 22
+        Function Count : 180
+        Minimum found : 17.303
+        Intern Time : 5.5179 seconds
+        Total Time : 13.971 seconds
+l =  700
+cost =  21.973
+cost =  29.276
+cost =  29.276
+cost =  20.614
+cost =  20.614
+cost =  20.614
+cost =  20.516
+cost =  20.516
+cost =  20.533
+cost =  20.533
+cost =  20.509
+cost =  20.509
+cost =  20.509
+cost =  20.430
+cost =  20.430
+cost =  20.374
+cost =  20.374
+cost =  20.328
+cost =  20.328
+cost =  20.328
+
+octave:11> clear ; close all; clc
+octave:12> whos
+octave:13> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+cost =  320.49
+cost =  727.36
+cost =  727.37
+cost =  120.74
+cost =  120.74
+cost =  108.65
+cost =  108.65
+cost =  99.305
+cost =  99.306
+cost =  92.665
+cost =  92.665
+cost =  92.665
+cost =  88.184
+cost =  88.184
+cost =  84.674
+cost =  84.674
+cost =  81.505
+cost =  81.505
+cost =  81.505
+cost =  76.698
+cost =  76.698
+cost =  72.355
+cost =  72.355
+cost =  62.815
+cost =  62.815
+cost =  60.281
+cost =  60.281
+cost =  60.108
+cost =  60.108
+cost =  60.108
+cost =  38.662
+cost =  38.662
+cost =  36.120
+cost =  36.120
+cost =  36.120
+cost =  33.399
+cost =  33.399
+cost =  35.102
+cost =  35.102
+cost =  33.316
+cost =  33.316
+cost =  33.316
+cost =  31.797
+cost =  31.797
+cost =  31.950
+cost =  31.950
+cost =  31.610
+cost =  31.610
+cost =  31.610
+cost =  30.754
+cost =  30.754
+cost =  30.928
+cost =  30.928
+cost =  30.682
+cost =  30.682
+cost =  30.682
+cost =  30.190
+cost =  30.190
+cost =  30.057
+cost =  30.057
+cost =  30.057
+cost =  29.616
+cost =  29.616
+cost =  29.420
+cost =  29.420
+cost =  29.463
+cost =  29.463
+cost =  29.408
+cost =  29.408
+cost =  29.408
+cost =  28.897
+cost =  28.897
+cost =  28.612
+cost =  28.612
+cost =  28.562
+cost =  28.562
+cost =  28.551
+cost =  28.551
+cost =  28.551
+cost =  27.499
+cost =  27.499
+cost =  27.267
+cost =  27.267
+cost =  27.267
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  27.669
+cost =  27.669
+cost =  26.970
+cost =  26.970
+cost =  26.956
+cost =  26.956
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+cost =  26.954
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 13
+        Function Count : 127
+        Minimum found : 26.954
+        Intern Time : 2.6581 seconds
+        Total Time : 8.7399 seconds
+l =  100
+cost =  28.329
+cost =  30.326
+cost =  30.326
+cost =  28.162
+cost =  28.162
+cost =  28.130
+cost =  28.130
+cost =  28.130
+cost =  28.074
+cost =  28.074
+cost =  28.044
+cost =  28.044
+cost =  28.043
+cost =  28.043
+cost =  28.043
+cost =  27.858
+cost =  27.858
+cost =  27.858
+cost =  27.803
+cost =  27.803
+cost =  27.627
+cost =  27.627
+cost =  27.627
+cost =  30.403
+cost =  30.403
+cost =  27.573
+cost =  27.573
+cost =  27.573
+cost =  27.719
+cost =  27.719
+cost =  27.469
+cost =  27.469
+cost =  27.469
+cost =  28.262
+cost =  28.262
+cost =  27.434
+cost =  27.434
+cost =  27.434
+cost =  28.049
+cost =  28.049
+cost =  27.381
+cost =  27.381
+cost =  27.381
+cost =  27.916
+cost =  27.916
+cost =  27.370
+cost =  27.370
+cost =  27.370
+cost =  28.138
+cost =  28.138
+cost =  27.371
+cost =  27.371
+cost =  27.368
+cost =  27.368
+cost =  27.368
+cost =  28.226
+cost =  28.226
+cost =  27.366
+cost =  27.366
+cost =  27.366
+cost =  28.129
+cost =  28.129
+cost =  27.368
+cost =  27.368
+cost =  27.364
+cost =  27.364
+cost =  27.364
+cost =  28.150
+cost =  28.150
+cost =  27.364
+cost =  27.364
+cost =  27.361
+cost =  27.361
+cost =  27.361
+cost =  28.338
+cost =  28.338
+cost =  27.350
+cost =  27.350
+cost =  27.350
+cost =  28.161
+cost =  28.161
+cost =  27.339
+cost =  27.339
+cost =  27.339
+cost =  27.989
+cost =  27.989
+cost =  27.327
+cost =  27.327
+cost =  27.327
+cost =  28.007
+cost =  28.007
+cost =  27.306
+cost =  27.306
+cost =  27.306
+cost =  27.561
+cost =  27.561
+cost =  27.257
+cost =  27.257
+cost =  27.257
+cost =  27.535
+cost =  27.535
+cost =  27.183
+cost =  27.183
+cost =  27.183
+cost =  27.004
+cost =  27.004
+cost =  26.993
+cost =  26.993
+cost =  26.993
+cost =  26.683
+cost =  26.683
+cost =  26.683
+cost =  26.170
+cost =  26.170
+cost =  25.843
+cost =  25.843
+cost =  25.671
+cost =  25.671
+cost =  25.671
+cost =  25.140
+cost =  25.140
+cost =  25.331
+cost =  25.331
+cost =  25.117
+cost =  25.117
+cost =  25.117
+cost =  24.908
+cost =  24.908
+cost =  24.823
+cost =  24.823
+cost =  24.856
+cost =  24.856
+cost =  24.820
+cost =  24.820
+cost =  24.820
+cost =  24.569
+cost =  24.569
+cost =  24.378
+cost =  24.378
+cost =  24.148
+cost =  24.148
+cost =  24.148
+cost =  23.659
+cost =  23.659
+cost =  23.518
+cost =  23.518
+cost =  23.518
+cost =  23.102
+cost =  23.102
+cost =  22.809
+cost =  22.809
+cost =  22.558
+cost =  22.558
+cost =  22.558
+cost =  22.308
+cost =  22.308
+cost =  22.308
+cost =  22.132
+cost =  22.132
+cost =  22.058
+cost =  22.058
+cost =  22.088
+cost =  22.088
+cost =  22.056
+cost =  22.056
+cost =  22.056
+cost =  21.720
+cost =  21.720
+cost =  21.467
+cost =  21.467
+cost =  21.121
+cost =  21.121
+cost =  21.297
+cost =  21.297
+cost =  21.116
+cost =  21.116
+cost =  21.116
+cost =  21.084
+cost =  21.084
+cost =  21.026
+cost =  21.026
+cost =  21.022
+cost =  21.022
+cost =  21.022
+cost =  21.157
+cost =  21.157
+cost =  21.004
+cost =  21.004
+cost =  21.004
+cost =  21.031
+cost =  21.031
+cost =  20.969
+cost =  20.969
+cost =  20.969
+cost =  20.933
+cost =  20.933
+cost =  20.929
+cost =  20.929
+cost =  20.929
+cost =  20.766
+cost =  20.766
+cost =  20.698
+cost =  20.698
+cost =  20.698
+cost =  20.178
+cost =  20.178
+cost =  19.896
+cost =  19.896
+cost =  19.839
+cost =  19.839
+cost =  19.832
+cost =  19.832
+cost =  19.832
+cost =  19.261
+cost =  19.261
+cost =  19.425
+cost =  19.425
+cost =  19.243
+cost =  19.243
+cost =  19.243
+cost =  19.217
+cost =  19.217
+cost =  19.215
+cost =  19.215
+cost =  19.213
+cost =  19.213
+cost =  19.213
+cost =  19.124
+cost =  19.124
+cost =  19.066
+cost =  19.066
+cost =  19.045
+cost =  19.045
+cost =  19.045
+cost =  18.952
+cost =  18.952
+cost =  18.985
+cost =  18.985
+cost =  18.948
+cost =  18.948
+cost =  18.948
+cost =  18.804
+cost =  18.804
+cost =  18.854
+cost =  18.854
+cost =  18.797
+cost =  18.797
+cost =  18.797
+cost =  18.574
+cost =  18.574
+cost =  18.477
+cost =  18.477
+cost =  18.502
+cost =  18.502
+cost =  18.471
+cost =  18.471
+cost =  18.471
+cost =  18.182
+cost =  18.182
+cost =  18.122
+cost =  18.122
+cost =  18.116
+cost =  18.116
+cost =  18.116
+cost =  18.053
+cost =  18.053
+cost =  18.053
+cost =  17.990
+cost =  17.990
+cost =  17.984
+cost =  17.984
+cost =  17.980
+cost =  17.980
+cost =  17.980
+cost =  17.921
+cost =  17.921
+cost =  17.916
+cost =  17.916
+cost =  17.911
+cost =  17.911
+cost =  17.911
+cost =  17.807
+cost =  17.807
+cost =  17.747
+cost =  17.747
+cost =  17.739
+cost =  17.739
+cost =  17.736
+cost =  17.736
+cost =  17.736
+cost =  17.531
+cost =  17.531
+cost =  17.441
+cost =  17.441
+cost =  17.706
+cost =  17.706
+cost =  17.418
+cost =  17.418
+cost =  17.418
+cost =  17.452
+cost =  17.452
+cost =  17.390
+cost =  17.390
+cost =  17.390
+cost =  17.465
+cost =  17.465
+cost =  17.389
+cost =  17.389
+cost =  17.389
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 309
+        Minimum found : 17.389
+        Intern Time : 15.502 seconds
+        Total Time : 30.047 seconds
+l =  200
+cost =  21.936
+cost =  24.109
+cost =  24.109
+cost =  21.209
+cost =  21.209
+cost =  21.209
+cost =  21.133
+cost =  21.133
+cost =  21.096
+cost =  21.096
+cost =  21.097
+cost =  21.097
+cost =  21.092
+cost =  21.092
+cost =  21.092
+cost =  20.979
+cost =  20.979
+cost =  20.895
+cost =  20.895
+cost =  20.813
+cost =  20.813
+cost =  20.813
+cost =  20.539
+cost =  20.539
+cost =  20.519
+cost =  20.519
+cost =  20.512
+cost =  20.512
+cost =  20.512
+cost =  19.975
+cost =  19.975
+cost =  19.957
+cost =  19.957
+cost =  19.910
+cost =  19.910
+cost =  19.910
+cost =  19.863
+cost =  19.863
+cost =  19.823
+cost =  19.823
+cost =  19.818
+cost =  19.818
+cost =  19.817
+cost =  19.817
+cost =  19.817
+cost =  19.737
+cost =  19.737
+cost =  19.701
+cost =  19.701
+cost =  19.707
+cost =  19.707
+cost =  19.698
+cost =  19.698
+cost =  19.698
+cost =  19.539
+cost =  19.539
+cost =  19.423
+cost =  19.423
+cost =  19.342
+cost =  19.342
+cost =  19.338
+cost =  19.338
+cost =  19.338
+cost =  19.129
+cost =  19.129
+cost =  19.129
+cost =  18.951
+cost =  18.951
+cost =  19.044
+cost =  19.044
+cost =  18.949
+cost =  18.949
+cost =  18.949
+cost =  18.756
+cost =  18.756
+cost =  18.655
+cost =  18.655
+cost =  18.645
+cost =  18.645
+cost =  18.638
+cost =  18.638
+cost =  18.638
+cost =  18.410
+cost =  18.410
+cost =  18.410
+cost =  18.358
+cost =  18.358
+cost =  18.358
+cost =  18.326
+cost =  18.326
+cost =  18.318
+cost =  18.318
+cost =  18.318
+cost =  18.263
+cost =  18.263
+cost =  18.226
+cost =  18.226
+cost =  18.209
+cost =  18.209
+cost =  18.209
+cost =  18.118
+cost =  18.118
+cost =  18.115
+cost =  18.115
+cost =  18.115
+cost =  18.039
+cost =  18.039
+cost =  18.016
+cost =  18.016
+cost =  18.016
+cost =  18.003
+cost =  18.003
+cost =  18.004
+cost =  18.004
+cost =  18.002
+cost =  18.002
+cost =  18.002
+cost =  17.933
+cost =  17.933
+cost =  17.917
+cost =  17.917
+cost =  17.915
+cost =  17.915
+cost =  17.915
+cost =  17.834
+cost =  17.834
+cost =  17.823
+cost =  17.823
+cost =  17.819
+cost =  17.819
+cost =  17.819
+cost =  17.702
+cost =  17.702
+cost =  17.722
+cost =  17.722
+cost =  17.695
+cost =  17.695
+cost =  17.695
+cost =  17.562
+cost =  17.562
+cost =  17.465
+cost =  17.465
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.525
+cost =  17.525
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.538
+cost =  17.538
+cost =  17.394
+cost =  17.394
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+cost =  17.391
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 24
+        Function Count : 184
+        Minimum found : 17.391
+        Intern Time : 6.3953 seconds
+        Total Time : 15.078 seconds
+l =  300
+cost =  20.785
+cost =  28.492
+cost =  28.492
+cost =  19.151
+cost =  19.151
+cost =  19.151
+cost =  19.070
+cost =  19.070
+cost =  19.075
+cost =  19.075
+cost =  19.061
+cost =  19.061
+cost =  19.061
+cost =  18.974
+cost =  18.974
+cost =  18.903
+cost =  18.903
+cost =  18.786
+cost =  18.786
+cost =  18.819
+cost =  18.819
+cost =  18.779
+cost =  18.779
+cost =  18.779
+cost =  18.224
+cost =  18.224
+cost =  17.931
+cost =  17.931
+cost =  17.915
+cost =  17.915
+cost =  17.887
+cost =  17.887
+cost =  17.887
+cost =  18.010
+cost =  18.010
+cost =  17.520
+cost =  17.520
+cost =  17.520
+cost =  17.380
+cost =  17.380
+cost =  17.411
+cost =  17.411
+cost =  17.373
+cost =  17.373
+cost =  17.373
+cost =  17.315
+cost =  17.315
+cost =  17.266
+cost =  17.266
+cost =  17.182
+cost =  17.182
+cost =  17.187
+cost =  17.187
+cost =  17.173
+cost =  17.173
+cost =  17.173
+cost =  16.930
+cost =  16.930
+cost =  16.781
+cost =  16.781
+cost =  16.722
+cost =  16.722
+cost =  16.722
+cost =  16.251
+cost =  16.251
+cost =  16.120
+cost =  16.120
+cost =  16.120
+cost =  16.018
+cost =  16.018
+cost =  16.018
+cost =  15.992
+cost =  15.992
+cost =  15.993
+cost =  15.993
+cost =  15.989
+cost =  15.989
+cost =  15.989
+cost =  15.957
+cost =  15.957
+cost =  15.938
+cost =  15.938
+cost =  15.931
+cost =  15.931
+cost =  15.931
+cost =  15.878
+cost =  15.878
+cost =  15.878
+cost =  15.878
+cost =  15.871
+cost =  15.871
+cost =  15.871
+cost =  15.844
+cost =  15.844
+cost =  15.836
+cost =  15.836
+cost =  15.836
+cost =  15.806
+cost =  15.806
+cost =  15.806
+cost =  15.807
+cost =  15.807
+cost =  15.777
+cost =  15.777
+cost =  15.777
+cost =  15.763
+cost =  15.763
+cost =  15.756
+cost =  15.756
+cost =  15.755
+cost =  15.755
+cost =  15.755
+cost =  15.743
+cost =  15.743
+cost =  15.742
+cost =  15.742
+cost =  15.742
+cost =  15.742
+cost =  15.742
+cost =  15.726
+cost =  15.726
+cost =  15.715
+cost =  15.715
+cost =  15.711
+cost =  15.711
+cost =  15.711
+cost =  15.683
+cost =  15.683
+cost =  15.663
+cost =  15.663
+cost =  15.649
+cost =  15.649
+cost =  15.649
+cost =  15.624
+cost =  15.624
+cost =  15.620
+cost =  15.620
+cost =  15.620
+cost =  15.583
+cost =  15.583
+cost =  15.578
+cost =  15.578
+cost =  15.576
+cost =  15.576
+cost =  15.576
+cost =  15.559
+cost =  15.559
+cost =  15.559
+cost =  15.554
+cost =  15.554
+cost =  15.552
+cost =  15.552
+cost =  15.552
+cost =  15.533
+cost =  15.533
+cost =  15.516
+cost =  15.516
+cost =  15.475
+cost =  15.475
+cost =  15.440
+cost =  15.440
+cost =  15.440
+cost =  15.365
+cost =  15.365
+cost =  15.375
+cost =  15.375
+cost =  15.359
+cost =  15.359
+cost =  15.359
+cost =  15.321
+cost =  15.321
+cost =  15.297
+cost =  15.297
+cost =  15.289
+cost =  15.289
+cost =  15.289
+cost =  15.278
+cost =  15.278
+cost =  15.277
+cost =  15.277
+cost =  15.277
+cost =  15.277
+cost =  15.277
+cost =  15.267
+cost =  15.267
+cost =  15.269
+cost =  15.269
+cost =  15.266
+cost =  15.266
+cost =  15.266
+cost =  15.262
+cost =  15.262
+cost =  15.261
+cost =  15.261
+cost =  15.261
+cost =  15.261
+cost =  15.261
+cost =  15.237
+cost =  15.237
+cost =  15.216
+cost =  15.216
+cost =  15.174
+cost =  15.174
+cost =  15.163
+cost =  15.163
+cost =  15.163
+cost =  15.159
+cost =  15.159
+cost =  15.144
+cost =  15.144
+cost =  15.143
+cost =  15.143
+cost =  15.143
+cost =  15.126
+cost =  15.126
+cost =  15.125
+cost =  15.125
+cost =  15.125
+cost =  15.093
+cost =  15.093
+cost =  15.078
+cost =  15.078
+cost =  15.079
+cost =  15.079
+cost =  15.077
+cost =  15.077
+cost =  15.077
+cost =  15.052
+cost =  15.052
+cost =  15.060
+cost =  15.060
+cost =  15.051
+cost =  15.051
+cost =  15.051
+cost =  15.030
+cost =  15.030
+cost =  15.011
+cost =  15.011
+cost =  14.957
+cost =  14.957
+cost =  14.851
+cost =  14.851
+cost =  14.839
+cost =  14.839
+cost =  14.832
+cost =  14.832
+cost =  14.832
+cost =  14.978
+cost =  14.978
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.956
+cost =  14.956
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.982
+cost =  14.982
+cost =  14.835
+cost =  14.835
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+cost =  14.831
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 39
+        Function Count : 289
+        Minimum found : 14.831
+        Intern Time : 11.697 seconds
+        Total Time : 25.166 seconds
+l =  400
+cost =  21.565
+cost =  24.415
+cost =  24.415
+cost =  20.443
+cost =  20.443
+cost =  20.431
+cost =  20.431
+cost =  20.431
+cost =  20.365
+cost =  20.365
+cost =  20.326
+cost =  20.326
+cost =  20.313
+cost =  20.313
+cost =  20.313
+cost =  20.127
+cost =  20.127
+cost =  19.980
+cost =  19.980
+cost =  19.775
+cost =  19.775
+cost =  19.775
+cost =  19.711
+cost =  19.711
+cost =  19.480
+cost =  19.480
+cost =  19.458
+cost =  19.458
+cost =  19.450
+cost =  19.450
+cost =  19.450
+cost =  19.195
+cost =  19.195
+cost =  19.195
+cost =  19.147
+cost =  19.147
+cost =  19.162
+cost =  19.162
+cost =  19.145
+cost =  19.145
+cost =  19.145
+cost =  19.089
+cost =  19.089
+cost =  19.057
+cost =  19.057
+cost =  19.047
+cost =  19.047
+cost =  19.047
+cost =  18.831
+cost =  18.831
+cost =  18.702
+cost =  18.702
+cost =  18.668
+cost =  18.668
+cost =  18.668
+cost =  18.396
+cost =  18.396
+cost =  18.383
+cost =  18.383
+cost =  18.378
+cost =  18.378
+cost =  18.378
+cost =  18.270
+cost =  18.270
+cost =  18.334
+cost =  18.334
+cost =  18.268
+cost =  18.268
+cost =  18.268
+cost =  18.238
+cost =  18.238
+cost =  18.238
+cost =  18.208
+cost =  18.208
+cost =  18.204
+cost =  18.204
+cost =  18.202
+cost =  18.202
+cost =  18.202
+cost =  18.146
+cost =  18.146
+cost =  18.133
+cost =  18.133
+cost =  18.132
+cost =  18.132
+cost =  18.132
+cost =  18.044
+cost =  18.044
+cost =  18.001
+cost =  18.001
+cost =  17.999
+cost =  17.999
+cost =  17.995
+cost =  17.995
+cost =  17.995
+cost =  17.971
+cost =  17.971
+cost =  17.971
+cost =  17.942
+cost =  17.942
+cost =  17.939
+cost =  17.939
+cost =  17.939
+cost =  17.939
+cost =  17.939
+cost =  17.902
+cost =  17.902
+cost =  17.900
+cost =  17.900
+cost =  17.896
+cost =  17.896
+cost =  17.896
+cost =  17.870
+cost =  17.870
+cost =  17.874
+cost =  17.874
+cost =  17.868
+cost =  17.868
+cost =  17.868
+cost =  17.844
+cost =  17.844
+cost =  17.825
+cost =  17.825
+cost =  17.798
+cost =  17.798
+cost =  17.798
+cost =  17.754
+cost =  17.754
+cost =  17.734
+cost =  17.734
+cost =  17.740
+cost =  17.740
+cost =  17.733
+cost =  17.733
+cost =  17.733
+cost =  17.688
+cost =  17.688
+cost =  17.672
+cost =  17.672
+cost =  17.672
+cost =  17.624
+cost =  17.624
+cost =  17.598
+cost =  17.598
+cost =  17.594
+cost =  17.594
+cost =  17.593
+cost =  17.593
+cost =  17.593
+cost =  17.593
+cost =  17.593
+cost =  17.587
+cost =  17.587
+cost =  17.587
+cost =  17.593
+cost =  17.593
+cost =  17.587
+cost =  17.587
+cost =  17.587
+cost =  17.582
+cost =  17.582
+cost =  17.582
+cost =  17.582
+cost =  17.581
+cost =  17.581
+cost =  17.581
+cost =  17.574
+cost =  17.574
+cost =  17.573
+cost =  17.573
+cost =  17.572
+cost =  17.572
+cost =  17.572
+cost =  17.540
+cost =  17.540
+cost =  17.512
+cost =  17.512
+cost =  17.450
+cost =  17.450
+cost =  17.422
+cost =  17.422
+cost =  17.422
+cost =  17.370
+cost =  17.370
+cost =  17.365
+cost =  17.365
+cost =  17.363
+cost =  17.363
+cost =  17.363
+cost =  17.338
+cost =  17.338
+cost =  17.338
+cost =  17.297
+cost =  17.297
+cost =  17.261
+cost =  17.261
+cost =  17.199
+cost =  17.199
+cost =  17.213
+cost =  17.213
+cost =  17.194
+cost =  17.194
+cost =  17.194
+cost =  17.243
+cost =  17.243
+cost =  17.187
+cost =  17.187
+cost =  17.187
+cost =  17.240
+cost =  17.240
+cost =  17.188
+cost =  17.188
+cost =  17.187
+cost =  17.187
+cost =  17.187
+cost =  17.234
+cost =  17.234
+cost =  17.186
+cost =  17.186
+cost =  17.186
+cost =  17.233
+cost =  17.233
+cost =  17.186
+cost =  17.186
+cost =  17.186
+cost =  17.230
+cost =  17.230
+cost =  17.186
+cost =  17.186
+cost =  17.186
+cost =  17.228
+cost =  17.228
+cost =  17.186
+cost =  17.186
+cost =  17.186
+cost =  17.186
+cost =  17.186
+cost =  17.225
+cost =  17.225
+cost =  17.186
+cost =  17.186
+cost =  17.186
+cost =  17.216
+cost =  17.216
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.221
+cost =  17.221
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+cost =  17.185
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 39
+        Function Count : 295
+        Minimum found : 17.185
+        Intern Time : 11.782 seconds
+        Total Time : 25.437 seconds
+l =  500
+cost =  21.346
+cost =  23.715
+cost =  23.715
+cost =  19.806
+cost =  19.806
+cost =  19.752
+cost =  19.752
+cost =  19.752
+cost =  19.609
+cost =  19.609
+cost =  19.673
+cost =  19.673
+cost =  19.605
+cost =  19.605
+cost =  19.605
+cost =  19.562
+cost =  19.562
+cost =  19.526
+cost =  19.526
+cost =  19.464
+cost =  19.464
+cost =  19.471
+cost =  19.471
+cost =  19.458
+cost =  19.458
+cost =  19.458
+cost =  19.176
+cost =  19.176
+cost =  19.015
+cost =  19.015
+cost =  18.978
+cost =  18.978
+cost =  18.978
+cost =  21.579
+cost =  21.579
+cost =  18.887
+cost =  18.887
+cost =  18.871
+cost =  18.871
+cost =  18.870
+cost =  18.870
+cost =  18.870
+cost =  18.745
+cost =  18.745
+cost =  18.806
+cost =  18.806
+cost =  18.742
+cost =  18.742
+cost =  18.742
+cost =  18.716
+cost =  18.716
+cost =  18.696
+cost =  18.696
+cost =  18.678
+cost =  18.678
+cost =  18.678
+cost =  18.551
+cost =  18.551
+cost =  18.445
+cost =  18.445
+cost =  18.251
+cost =  18.251
+cost =  18.255
+cost =  18.255
+cost =  18.227
+cost =  18.227
+cost =  18.227
+cost =  18.329
+cost =  18.329
+cost =  18.047
+cost =  18.047
+cost =  18.044
+cost =  18.044
+cost =  18.044
+cost =  17.930
+cost =  17.930
+cost =  17.986
+cost =  17.986
+cost =  17.927
+cost =  17.927
+cost =  17.927
+cost =  17.902
+cost =  17.902
+cost =  17.889
+cost =  17.889
+cost =  17.889
+cost =  17.889
+cost =  17.888
+cost =  17.888
+cost =  17.888
+cost =  17.875
+cost =  17.875
+cost =  17.876
+cost =  17.876
+cost =  17.874
+cost =  17.874
+cost =  17.874
+cost =  17.849
+cost =  17.849
+cost =  17.833
+cost =  17.833
+cost =  17.825
+cost =  17.825
+cost =  17.825
+cost =  17.716
+cost =  17.716
+cost =  17.626
+cost =  17.626
+cost =  17.475
+cost =  17.475
+cost =  17.526
+cost =  17.526
+cost =  17.467
+cost =  17.467
+cost =  17.467
+cost =  18.433
+cost =  18.433
+cost =  17.445
+cost =  17.445
+cost =  17.445
+cost =  17.445
+cost =  17.442
+cost =  17.442
+cost =  17.442
+cost =  17.511
+cost =  17.511
+cost =  17.442
+cost =  17.442
+cost =  17.442
+cost =  17.527
+cost =  17.527
+cost =  17.438
+cost =  17.438
+cost =  17.438
+cost =  17.606
+cost =  17.606
+cost =  17.434
+cost =  17.434
+cost =  17.434
+cost =  17.479
+cost =  17.479
+cost =  17.424
+cost =  17.424
+cost =  17.424
+cost =  17.554
+cost =  17.554
+cost =  17.423
+cost =  17.423
+cost =  17.423
+cost =  17.451
+cost =  17.451
+cost =  17.421
+cost =  17.421
+cost =  17.421
+cost =  17.432
+cost =  17.432
+cost =  17.409
+cost =  17.409
+cost =  17.408
+cost =  17.408
+cost =  17.408
+cost =  17.419
+cost =  17.419
+cost =  17.399
+cost =  17.399
+cost =  17.399
+cost =  17.399
+cost =  17.399
+cost =  17.385
+cost =  17.385
+cost =  17.388
+cost =  17.388
+cost =  17.384
+cost =  17.384
+cost =  17.384
+cost =  17.331
+cost =  17.331
+cost =  17.315
+cost =  17.315
+cost =  17.315
+cost =  17.254
+cost =  17.254
+cost =  17.258
+cost =  17.258
+cost =  17.248
+cost =  17.248
+cost =  17.248
+cost =  17.187
+cost =  17.187
+cost =  17.128
+cost =  17.128
+cost =  16.969
+cost =  16.969
+cost =  16.678
+cost =  16.678
+cost =  16.756
+cost =  16.756
+cost =  16.658
+cost =  16.658
+cost =  16.658
+cost =  17.094
+cost =  17.094
+cost =  16.660
+cost =  16.660
+cost =  16.657
+cost =  16.657
+cost =  16.657
+cost =  17.075
+cost =  17.075
+cost =  16.659
+cost =  16.659
+cost =  16.656
+cost =  16.656
+cost =  16.656
+cost =  17.418
+cost =  17.418
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  17.076
+cost =  17.076
+cost =  16.657
+cost =  16.657
+cost =  16.647
+cost =  16.647
+cost =  16.646
+cost =  16.646
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+cost =  16.645
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 31
+        Function Count : 255
+        Minimum found : 16.645
+        Intern Time : 8.9472 seconds
+        Total Time : 20.975 seconds
+l =  600
+cost =  20.700
+cost =  26.403
+cost =  26.403
+cost =  19.812
+cost =  19.812
+cost =  19.726
+cost =  19.726
+cost =  19.726
+cost =  19.661
+cost =  19.661
+cost =  19.652
+cost =  19.652
+cost =  19.649
+cost =  19.649
+cost =  19.649
+cost =  19.584
+cost =  19.584
+cost =  19.532
+cost =  19.532
+cost =  19.459
+cost =  19.459
+cost =  19.459
+cost =  19.069
+cost =  19.069
+cost =  18.986
+cost =  18.986
+cost =  18.986
+cost =  19.932
+cost =  19.932
+cost =  18.842
+cost =  18.842
+cost =  18.827
+cost =  18.827
+cost =  18.827
+cost =  18.633
+cost =  18.633
+cost =  18.703
+cost =  18.703
+cost =  18.625
+cost =  18.625
+cost =  18.625
+cost =  18.589
+cost =  18.589
+cost =  18.573
+cost =  18.573
+cost =  18.573
+cost =  18.494
+cost =  18.494
+cost =  18.444
+cost =  18.444
+cost =  18.422
+cost =  18.422
+cost =  18.422
+cost =  18.145
+cost =  18.145
+cost =  18.036
+cost =  18.036
+cost =  18.036
+cost =  17.883
+cost =  17.883
+cost =  17.809
+cost =  17.809
+cost =  17.796
+cost =  17.796
+cost =  17.792
+cost =  17.792
+cost =  17.792
+cost =  17.726
+cost =  17.726
+cost =  17.726
+cost =  17.709
+cost =  17.709
+cost =  17.713
+cost =  17.713
+cost =  17.708
+cost =  17.708
+cost =  17.708
+cost =  17.694
+cost =  17.694
+cost =  17.684
+cost =  17.684
+cost =  17.670
+cost =  17.670
+cost =  17.670
+cost =  17.582
+cost =  17.582
+cost =  17.521
+cost =  17.521
+cost =  17.483
+cost =  17.483
+cost =  17.483
+cost =  17.440
+cost =  17.440
+cost =  17.421
+cost =  17.421
+cost =  17.418
+cost =  17.418
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.459
+cost =  17.459
+cost =  17.419
+cost =  17.419
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.417
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 16
+        Function Count : 126
+        Minimum found : 17.417
+        Intern Time : 3.5237 seconds
+        Total Time : 9.3282 seconds
+l =  700
+cost =  22.039
+cost =  30.196
+cost =  30.196
+cost =  20.826
+cost =  20.826
+cost =  20.775
+cost =  20.775
+cost =  20.775
+cost =  20.680
+cost =  20.680
+cost =  20.700
+cost =  20.700
+cost =  20.674
+cost =  20.674
+cost =  20.674
+cost =  20.624
+cost =  20.624
+cost =  20.582
+cost =  20.582
+cost =  20.503
+cost =  20.503
+cost =  20.500
+cost =  20.500
+cost =  20.492
+cost =  20.492
+cost =  20.492
+cost =  20.112
+cost =  20.112
+cost =  19.846
+cost =  19.846
+cost =  19.664
+cost =  19.664
+cost =  19.664
+cost =  21.054
+cost =  21.054
+cost =  19.482
+cost =  19.482
+cost =  19.444
+cost =  19.444
+cost =  19.444
+cost =  19.341
+cost =  19.341
+cost =  19.368
+cost =  19.368
+cost =  19.336
+cost =  19.336
+cost =  19.336
+cost =  19.306
+cost =  19.306
+cost =  19.280
+cost =  19.280
+cost =  19.229
+cost =  19.229
+cost =  19.219
+cost =  19.219
+cost =  19.218
+cost =  19.218
+cost =  19.218
+cost =  19.026
+cost =  19.026
+cost =  18.858
+cost =  18.858
+cost =  18.496
+cost =  18.496
+cost =  18.349
+cost =  18.349
+cost =  18.349
+cost =  18.245
+cost =  18.245
+cost =  18.107
+cost =  18.107
+cost =  18.091
+cost =  18.091
+cost =  18.084
+cost =  18.084
+cost =  18.084
+cost =  18.097
+cost =  18.097
+cost =  18.078
+cost =  18.078
+cost =  18.078
+cost =  18.082
+cost =  18.082
+cost =  18.070
+cost =  18.070
+cost =  18.070
+cost =  18.072
+cost =  18.072
+cost =  18.066
+cost =  18.066
+cost =  18.066
+cost =  18.065
+cost =  18.065
+cost =  18.062
+cost =  18.062
+cost =  18.062
+cost =  18.047
+cost =  18.047
+cost =  18.047
+cost =  18.004
+cost =  18.004
+cost =  17.997
+cost =  17.997
+cost =  17.996
+cost =  17.996
+cost =  17.996
+cost =  17.876
+cost =  17.876
+cost =  17.865
+cost =  17.865
+cost =  17.857
+cost =  17.857
+cost =  17.857
+cost =  17.687
+cost =  17.687
+cost =  17.651
+cost =  17.651
+cost =  17.648
+cost =  17.648
+cost =  17.648
+cost =  17.610
+cost =  17.610
+cost =  17.606
+cost =  17.606
+cost =  17.603
+cost =  17.603
+cost =  17.603
+cost =  17.589
+cost =  17.589
+cost =  17.580
+cost =  17.580
+cost =  17.577
+cost =  17.577
+cost =  17.577
+cost =  17.578
+cost =  17.578
+cost =  17.576
+cost =  17.576
+cost =  17.576
+cost =  17.571
+cost =  17.571
+cost =  17.571
+cost =  17.559
+cost =  17.559
+cost =  17.551
+cost =  17.551
+cost =  17.549
+cost =  17.549
+cost =  17.549
+cost =  17.505
+cost =  17.505
+cost =  17.463
+cost =  17.463
+cost =  17.348
+cost =  17.348
+cost =  17.107
+cost =  17.107
+cost =  17.060
+cost =  17.060
+cost =  17.052
+cost =  17.052
+cost =  17.052
+cost =  17.305
+cost =  17.305
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.240
+cost =  17.240
+cost =  17.041
+cost =  17.041
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+cost =  17.038
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 25
+        Function Count : 207
+        Minimum found : 17.038
+        Intern Time : 6.8057 seconds
+        Total Time : 16.372 seconds
+l =  800
+cost =  21.104
+cost =  25.201
+cost =  25.201
+cost =  20.320
+cost =  20.320
+cost =  20.301
+cost =  20.301
+cost =  20.301
+cost =  20.248
+cost =  20.248
+cost =  20.229
+cost =  20.229
+cost =  20.229
+cost =  20.152
+cost =  20.152
+cost =  20.089
+cost =  20.089
+cost =  19.983
+cost =  19.983
+cost =  20.005
+cost =  20.005
+cost =  19.976
+cost =  19.976
+cost =  19.976
+cost =  19.545
+cost =  19.545
+cost =  19.494
+cost =  19.494
+cost =  19.471
+cost =  19.471
+cost =  19.471
+cost =  19.473
+cost =  19.473
+cost =  19.325
+cost =  19.325
+cost =  19.325
+cost =  19.274
+cost =  19.274
+cost =  19.291
+cost =  19.291
+cost =  19.271
+cost =  19.271
+cost =  19.271
+cost =  19.242
+cost =  19.242
+cost =  19.219
+cost =  19.219
+cost =  19.190
+cost =  19.190
+cost =  19.190
+cost =  19.054
+cost =  19.054
+cost =  18.943
+cost =  18.943
+cost =  18.780
+cost =  18.780
+cost =  18.780
+cost =  18.342
+cost =  18.342
+cost =  18.448
+cost =  18.448
+cost =  18.323
+cost =  18.323
+cost =  18.323
+cost =  18.244
+cost =  18.244
+cost =  18.241
+cost =  18.241
+cost =  18.241
+cost =  18.238
+cost =  18.238
+cost =  18.237
+cost =  18.237
+cost =  18.237
+cost =  18.237
+cost =  18.237
+cost =  18.232
+cost =  18.232
+cost =  18.232
+cost =  18.213
+cost =  18.213
+cost =  18.210
+cost =  18.210
+cost =  18.209
+cost =  18.209
+cost =  18.209
+cost =  18.160
+cost =  18.160
+cost =  18.119
+cost =  18.119
+cost =  18.058
+cost =  18.058
+cost =  18.058
+cost =  17.970
+cost =  17.970
+cost =  17.988
+cost =  17.988
+cost =  17.965
+cost =  17.965
+cost =  17.965
+cost =  17.895
+cost =  17.895
+cost =  17.885
+cost =  17.885
+cost =  17.882
+cost =  17.882
+cost =  17.882
+cost =  17.880
+cost =  17.880
+cost =  17.879
+cost =  17.879
+cost =  17.879
+cost =  17.879
+cost =  17.879
+cost =  17.879
+cost =  17.879
+cost =  17.878
+cost =  17.878
+cost =  17.878
+cost =  17.868
+cost =  17.868
+cost =  17.869
+cost =  17.869
+cost =  17.868
+cost =  17.868
+cost =  17.868
+cost =  17.839
+cost =  17.839
+cost =  17.815
+cost =  17.815
+cost =  17.765
+cost =  17.765
+cost =  17.751
+cost =  17.751
+cost =  17.751
+cost =  17.690
+cost =  17.690
+cost =  17.690
+cost =  17.619
+cost =  17.619
+cost =  17.571
+cost =  17.571
+cost =  17.541
+cost =  17.541
+cost =  17.541
+cost =  17.572
+cost =  17.572
+cost =  17.540
+cost =  17.540
+cost =  17.540
+cost =  17.563
+cost =  17.563
+cost =  17.537
+cost =  17.537
+cost =  17.537
+cost =  17.560
+cost =  17.560
+cost =  17.537
+cost =  17.537
+cost =  17.537
+cost =  17.555
+cost =  17.555
+cost =  17.536
+cost =  17.536
+cost =  17.536
+cost =  17.549
+cost =  17.549
+cost =  17.535
+cost =  17.535
+cost =  17.535
+cost =  17.544
+cost =  17.544
+cost =  17.534
+cost =  17.534
+cost =  17.534
+cost =  17.537
+cost =  17.537
+cost =  17.532
+cost =  17.532
+cost =  17.532
+cost =  17.529
+cost =  17.529
+cost =  17.528
+cost =  17.528
+cost =  17.528
+cost =  17.516
+cost =  17.516
+cost =  17.506
+cost =  17.506
+cost =  17.486
+cost =  17.486
+cost =  17.483
+cost =  17.483
+cost =  17.482
+cost =  17.482
+cost =  17.482
+cost =  17.453
+cost =  17.453
+cost =  17.455
+cost =  17.455
+cost =  17.450
+cost =  17.450
+cost =  17.450
+cost =  17.401
+cost =  17.401
+cost =  17.351
+cost =  17.351
+cost =  17.209
+cost =  17.209
+cost =  16.836
+cost =  16.836
+cost =  16.464
+cost =  16.464
+cost =  16.799
+cost =  16.799
+cost =  16.463
+cost =  16.463
+cost =  16.463
+cost =  17.209
+cost =  17.209
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  17.246
+cost =  17.246
+cost =  16.477
+cost =  16.477
+cost =  16.453
+cost =  16.453
+cost =  16.451
+cost =  16.451
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+cost =  16.450
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 35
+        Function Count : 253
+        Minimum found : 16.45
+        Intern Time : 10.349 seconds
+        Total Time : 22.251 seconds
+l =  900
+cost =  20.899
+cost =  24.174
+cost =  24.174
+cost =  19.869
+cost =  19.869
+cost =  19.869
+cost =  19.790
+cost =  19.790
+cost =  19.764
+cost =  19.764
+cost =  19.764
+cost =  19.640
+cost =  19.640
+cost =  19.558
+cost =  19.558
+cost =  19.516
+cost =  19.516
+cost =  19.516
+cost =  19.038
+cost =  19.038
+cost =  19.111
+cost =  19.111
+cost =  19.003
+cost =  19.003
+cost =  19.003
+cost =  20.353
+cost =  20.353
+cost =  18.812
+cost =  18.812
+cost =  18.805
+cost =  18.805
+cost =  18.805
+cost =  18.649
+cost =  18.649
+cost =  18.646
+cost =  18.646
+cost =  18.646
+cost =  18.616
+cost =  18.616
+cost =  18.616
+cost =  18.569
+cost =  18.569
+cost =  18.570
+cost =  18.570
+cost =  18.564
+cost =  18.564
+cost =  18.564
+cost =  18.441
+cost =  18.441
+cost =  18.386
+cost =  18.386
+cost =  18.386
+cost =  18.164
+cost =  18.164
+cost =  18.164
+cost =  17.808
+cost =  17.808
+cost =  17.842
+cost =  17.842
+cost =  17.779
+cost =  17.779
+cost =  17.779
+cost =  17.698
+cost =  17.698
+cost =  17.721
+cost =  17.721
+cost =  17.694
+cost =  17.694
+cost =  17.694
+cost =  17.655
+cost =  17.655
+cost =  17.655
+cost =  17.617
+cost =  17.617
+cost =  17.598
+cost =  17.598
+cost =  17.598
+cost =  17.598
+cost =  17.596
+cost =  17.596
+cost =  17.596
+cost =  17.546
+cost =  17.546
+cost =  17.528
+cost =  17.528
+cost =  17.528
+cost =  17.444
+cost =  17.444
+cost =  17.378
+cost =  17.378
+cost =  17.274
+cost =  17.274
+cost =  17.303
+cost =  17.303
+cost =  17.269
+cost =  17.269
+cost =  17.269
+cost =  17.174
+cost =  17.174
+cost =  17.172
+cost =  17.172
+cost =  17.172
+cost =  17.155
+cost =  17.155
+cost =  17.155
+cost =  17.147
+cost =  17.147
+cost =  17.142
+cost =  17.142
+cost =  17.141
+cost =  17.141
+cost =  17.141
+cost =  17.109
+cost =  17.109
+cost =  17.078
+cost =  17.078
+cost =  16.998
+cost =  16.998
+cost =  16.877
+cost =  16.877
+cost =  16.877
+cost =  16.815
+cost =  16.815
+cost =  16.792
+cost =  16.792
+cost =  16.787
+cost =  16.787
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.837
+cost =  16.837
+cost =  16.789
+cost =  16.789
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+cost =  16.786
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 22
+        Function Count : 156
+        Minimum found : 16.786
+        Intern Time : 5.5369 seconds
+        Total Time : 12.903 seconds
+l =  1000
+cost =  22.464
+cost =  30.420
+cost =  30.420
+cost =  19.994
+cost =  19.994
+cost =  19.994
+cost =  19.909
+cost =  19.909
+cost =  19.891
+cost =  19.891
+cost =  19.889
+cost =  19.889
+cost =  19.889
+cost =  19.792
+cost =  19.792
+cost =  19.709
+cost =  19.709
+cost =  19.551
+cost =  19.551
+cost =  19.526
+cost =  19.526
+cost =  19.519
+cost =  19.519
+cost =  19.519
+cost =  19.085
+cost =  19.085
+cost =  19.085
+cost =  18.925
+cost =  18.925
+cost =  18.897
+cost =  18.897
+cost =  18.890
+cost =  18.890
+cost =  18.890
+cost =  18.858
+cost =  18.858
+cost =  18.864
+cost =  18.864
+cost =  18.856
+cost =  18.856
+cost =  18.856
+cost =  18.817
+cost =  18.817
+cost =  18.797
+cost =  18.797
+cost =  18.795
+cost =  18.795
+cost =  18.795
+cost =  18.630
+cost =  18.630
+cost =  18.507
+cost =  18.507
+cost =  18.406
+cost =  18.406
+cost =  18.406
+cost =  18.490
+cost =  18.490
+cost =  18.258
+cost =  18.258
+cost =  18.255
+cost =  18.255
+cost =  18.255
+cost =  17.955
+cost =  17.955
+cost =  17.903
+cost =  17.903
+cost =  17.893
+cost =  17.893
+cost =  17.893
+cost =  17.852
+cost =  17.852
+cost =  17.826
+cost =  17.826
+cost =  17.814
+cost =  17.814
+cost =  17.814
+cost =  17.799
+cost =  17.799
+cost =  17.798
+cost =  17.798
+cost =  17.798
+cost =  17.786
+cost =  17.786
+cost =  17.786
+cost =  17.727
+cost =  17.727
+cost =  17.729
+cost =  17.729
+cost =  17.721
+cost =  17.721
+cost =  17.721
+cost =  17.632
+cost =  17.632
+cost =  17.641
+cost =  17.641
+cost =  17.624
+cost =  17.624
+cost =  17.624
+cost =  17.488
+cost =  17.488
+cost =  17.423
+cost =  17.423
+cost =  17.429
+cost =  17.429
+cost =  17.417
+cost =  17.417
+cost =  17.417
+cost =  17.431
+cost =  17.431
+cost =  17.409
+cost =  17.409
+cost =  17.409
+cost =  17.426
+cost =  17.426
+cost =  17.408
+cost =  17.408
+cost =  17.408
+cost =  17.420
+cost =  17.420
+cost =  17.406
+cost =  17.406
+cost =  17.406
+cost =  17.415
+cost =  17.415
+cost =  17.404
+cost =  17.404
+cost =  17.404
+cost =  17.406
+cost =  17.406
+cost =  17.401
+cost =  17.401
+cost =  17.401
+cost =  17.394
+cost =  17.394
+cost =  17.394
+cost =  17.394
+cost =  17.394
+cost =  17.369
+cost =  17.369
+cost =  17.355
+cost =  17.355
+cost =  17.350
+cost =  17.350
+cost =  17.350
+cost =  17.273
+cost =  17.273
+cost =  17.209
+cost =  17.209
+cost =  17.093
+cost =  17.093
+cost =  17.099
+cost =  17.099
+cost =  17.080
+cost =  17.080
+cost =  17.080
+cost =  16.995
+cost =  16.995
+cost =  16.993
+cost =  16.993
+cost =  16.993
+cost =  16.974
+cost =  16.974
+cost =  16.964
+cost =  16.964
+cost =  16.961
+cost =  16.961
+cost =  16.961
+cost =  16.953
+cost =  16.953
+cost =  16.953
+cost =  16.946
+cost =  16.946
+cost =  16.940
+cost =  16.940
+cost =  16.931
+cost =  16.931
+cost =  16.933
+cost =  16.933
+cost =  16.930
+cost =  16.930
+cost =  16.930
+cost =  16.874
+cost =  16.874
+cost =  16.820
+cost =  16.820
+cost =  16.675
+cost =  16.675
+cost =  16.389
+cost =  16.389
+cost =  16.314
+cost =  16.314
+cost =  16.312
+cost =  16.312
+cost =  16.312
+cost =  16.682
+cost =  16.682
+cost =  16.314
+cost =  16.314
+cost =  16.312
+cost =  16.312
+cost =  16.312
+cost =  16.839
+cost =  16.839
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.856
+cost =  16.856
+cost =  16.267
+cost =  16.267
+cost =  16.255
+cost =  16.255
+cost =  16.255
+cost =  16.255
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+cost =  16.254
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 32
+        Function Count : 240
+        Minimum found : 16.254
+        Intern Time : 9.372 seconds
+        Total Time : 20.937 seconds
+l =  1100
+cost =  21.639
+cost =  26.794
+cost =  26.794
+cost =  20.094
+cost =  20.094
+cost =  20.094
+cost =  19.995
+cost =  19.995
+cost =  20.028
+cost =  20.028
+cost =  19.991
+cost =  19.991
+cost =  19.991
+cost =  19.947
+cost =  19.947
+cost =  19.922
+cost =  19.922
+cost =  19.917
+cost =  19.917
+cost =  19.917
+cost =  19.750
+cost =  19.750
+cost =  19.659
+cost =  19.659
+cost =  19.647
+cost =  19.647
+cost =  19.647
+cost =  19.917
+cost =  19.917
+cost =  19.505
+cost =  19.505
+cost =  19.505
+cost =  19.326
+cost =  19.326
+cost =  19.326
+cost =  19.299
+cost =  19.299
+cost =  19.299
+cost =  19.270
+cost =  19.270
+cost =  19.264
+cost =  19.264
+cost =  19.264
+cost =  19.168
+cost =  19.168
+cost =  19.104
+cost =  19.104
+cost =  19.070
+cost =  19.070
+cost =  19.070
+cost =  18.769
+cost =  18.769
+cost =  18.734
+cost =  18.734
+cost =  18.718
+cost =  18.718
+cost =  18.718
+cost =  18.379
+cost =  18.379
+cost =  18.491
+cost =  18.491
+cost =  18.366
+cost =  18.366
+cost =  18.366
+cost =  18.372
+cost =  18.372
+cost =  18.363
+cost =  18.363
+cost =  18.363
+cost =  18.358
+cost =  18.358
+cost =  18.356
+cost =  18.356
+cost =  18.356
+cost =  18.356
+cost =  18.356
+cost =  18.347
+cost =  18.347
+cost =  18.347
+cost =  18.313
+cost =  18.313
+cost =  18.298
+cost =  18.298
+cost =  18.300
+cost =  18.300
+cost =  18.296
+cost =  18.296
+cost =  18.296
+cost =  18.204
+cost =  18.204
+cost =  18.125
+cost =  18.125
+cost =  17.971
+cost =  17.971
+cost =  17.933
+cost =  17.933
+cost =  17.933
+cost =  17.776
+cost =  17.776
+cost =  17.755
+cost =  17.755
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.805
+cost =  17.805
+cost =  17.753
+cost =  17.753
+cost =  17.750
+cost =  17.750
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+cost =  17.749
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 18
+        Function Count : 130
+        Minimum found : 17.749
+        Intern Time : 4.1816 seconds
+        Total Time : 10.324 seconds
+l =  1200
+cost =  25.198
+cost =  67.336
+cost =  67.336
+cost =  23.671
+cost =  23.671
+cost =  22.993
+cost =  22.993
+cost =  22.993
+cost =  22.838
+cost =  22.838
+cost =  22.907
+cost =  22.907
+cost =  22.834
+cost =  22.834
+cost =  22.834
+cost =  22.720
+cost =  22.720
+cost =  22.626
+cost =  22.626
+cost =  22.465
+cost =  22.465
+cost =  22.495
+cost =  22.495
+cost =  22.453
+cost =  22.453
+cost =  22.453
+cost =  21.835
+cost =  21.835
+cost =  21.351
+cost =  21.351
+cost =  20.686
+cost =  20.686
+cost =  20.686
+cost =  21.753
+cost =  21.753
+cost =  20.306
+cost =  20.306
+cost =  20.306
+cost =  20.231
+cost =  20.231
+cost =  20.231
+cost =  20.216
+cost =  20.216
+cost =  20.205
+cost =  20.205
+cost =  20.193
+cost =  20.193
+cost =  20.193
+cost =  20.108
+cost =  20.108
+cost =  20.033
+cost =  20.033
+cost =  19.877
+cost =  19.877
+cost =  19.821
+cost =  19.821
+cost =  19.821
+cost =  19.256
+cost =  19.256
+cost =  19.289
+cost =  19.289
+cost =  19.196
+cost =  19.196
+cost =  19.196
+cost =  18.726
+cost =  18.726
+cost =  18.878
+cost =  18.878
+cost =  18.710
+cost =  18.710
+cost =  18.710
+cost =  18.666
+cost =  18.666
+cost =  18.688
+cost =  18.688
+cost =  18.665
+cost =  18.665
+cost =  18.665
+cost =  18.654
+cost =  18.654
+cost =  18.646
+cost =  18.646
+cost =  18.638
+cost =  18.638
+cost =  18.638
+cost =  18.580
+cost =  18.580
+cost =  18.527
+cost =  18.527
+cost =  18.398
+cost =  18.398
+cost =  18.271
+cost =  18.271
+cost =  18.271
+cost =  18.084
+cost =  18.084
+cost =  18.084
+cost =  17.966
+cost =  17.966
+cost =  17.950
+cost =  17.950
+cost =  17.945
+cost =  17.945
+cost =  17.945
+cost =  17.812
+cost =  17.812
+cost =  17.724
+cost =  17.724
+cost =  17.671
+cost =  17.671
+cost =  17.671
+cost =  17.783
+cost =  17.783
+cost =  17.669
+cost =  17.669
+cost =  17.669
+cost =  17.782
+cost =  17.782
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.781
+cost =  17.781
+cost =  17.668
+cost =  17.668
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.778
+cost =  17.778
+cost =  17.668
+cost =  17.668
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.776
+cost =  17.776
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.774
+cost =  17.774
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.771
+cost =  17.771
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.667
+cost =  17.769
+cost =  17.769
+cost =  17.667
+cost =  17.667
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.765
+cost =  17.765
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.762
+cost =  17.762
+cost =  17.667
+cost =  17.667
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+cost =  17.666
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Line search cannot find an acceptable point along the current search
+        iterations : 26
+        Function Count : 220
+        Minimum found : 17.666
+        Intern Time : 7.4861 seconds
+        Total Time : 19.914 seconds
+l =  1300
+cost =  22.162
+cost =  35.192
+cost =  35.192
+cost =  21.605
+cost =  21.605
+cost =  21.407
+cost =  21.407
+cost =  21.407
+cost =  21.341
+cost =  21.341
+cost =  21.338
+cost =  21.338
+cost =  21.331
+cost =  21.331
+cost =  21.331
+cost =  21.269
+cost =  21.269
+cost =  21.214
+cost =  21.214
+cost =  21.095
+cost =  21.095
+cost =  21.044
+cost =  21.044
+
+octave:13> clear ; close all; clc
+octave:14> whos
+octave:15> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 203
+        Minimum found : 12.15
+        Intern Time : 15.352 seconds
+        Total Time : 24.692 seconds
+l =  100
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 191
+        Minimum found : 9.3654
+        Intern Time : 15.216 seconds
+        Total Time : 23.95 seconds
+l =  200
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 173
+        Minimum found : 8.8789
+        Intern Time : 15.236 seconds
+        Total Time : 23.232 seconds
+l =  300
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 191
+        Minimum found : 8.1966
+        Intern Time : 15.258 seconds
+        Total Time : 23.84 seconds
+l =  400
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 201
+        Minimum found : 8.9683
+        Intern Time : 15.358 seconds
+        Total Time : 24.654 seconds
+l =  500
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 177
+        Minimum found : 8.7239
+        Intern Time : 15.184 seconds
+        Total Time : 23.212 seconds
+l =  600
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 187
+        Minimum found : 8.6576
+        Intern Time : 15.432 seconds
+        Total Time : 24.25 seconds
+l =  700
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 195
+        Minimum found : 8.6164
+        Intern Time : 15.158 seconds
+        Total Time : 24.065 seconds
+l =  800
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 201
+        Minimum found : 8.7144
+        Intern Time : 15.448 seconds
+        Total Time : 24.581 seconds
+l =  900
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 193
+        Minimum found : 8.5746
+        Intern Time : 15.751 seconds
+        Total Time : 24.643 seconds
+l =  1000
+
+octave:15> clear ; close all; clc
+octave:16> whos
+octave:17> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 173
+        Minimum found : 12.548
+        Intern Time : 15.721 seconds
+        Total Time : 24.23 seconds
+l =  100
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 9.2728
+        Intern Time : 15.262 seconds
+        Total Time : 22.409 seconds
+l =  200
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 163
+        Minimum found : 8.5809
+        Intern Time : 15.1 seconds
+        Total Time : 22.537 seconds
+l =  300
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 161
+        Minimum found : 7.9198
+        Intern Time : 15.213 seconds
+        Total Time : 22.509 seconds
+l =  400
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 165
+        Minimum found : 8.5018
+        Intern Time : 15.235 seconds
+        Total Time : 22.713 seconds
+l =  500
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 159
+        Minimum found : 8.3226
+        Intern Time : 15.617 seconds
+        Total Time : 23.048 seconds
+l =  600
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 8.2738
+        Intern Time : 15.169 seconds
+        Total Time : 22.278 seconds
+l =  700
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 163
+        Minimum found : 8.3587
+        Intern Time : 15.201 seconds
+        Total Time : 22.545 seconds
+l =  800
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 161
+        Minimum found : 8.3292
+        Intern Time : 15.209 seconds
+        Total Time : 22.527 seconds
+l =  900
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 161
+        Minimum found : 8.1515
+        Intern Time : 15.238 seconds
+        Total Time : 22.483 seconds
+l =  1000
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 8.1188
+        Intern Time : 15.185 seconds
+        Total Time : 22.167 seconds
+l =  1100
+
+octave:17> clear ; close all; clc
+octave:18> whos
+octave:19> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 163
+        Minimum found : 13.071
+        Intern Time : 15.279 seconds
+        Total Time : 22.919 seconds
+l =  100
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 9.3612
+        Intern Time : 15.207 seconds
+        Total Time : 22.436 seconds
+l =  200
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 8.8437
+        Intern Time : 15.203 seconds
+        Total Time : 22.29 seconds
+l =  300
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 153
+        Minimum found : 8.0569
+        Intern Time : 15.249 seconds
+        Total Time : 22.144 seconds
+l =  400
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 153
+        Minimum found : 8.5527
+        Intern Time : 15.226 seconds
+        Total Time : 22.126 seconds
+l =  500
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 159
+        Minimum found : 8.3514
+        Intern Time : 15.197 seconds
+        Total Time : 22.477 seconds
+l =  600
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 155
+        Minimum found : 8.2861
+        Intern Time : 15.266 seconds
+        Total Time : 22.272 seconds
+l =  700
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 8.4372
+        Intern Time : 15.429 seconds
+        Total Time : 22.824 seconds
+l =  800
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 8.3765
+        Intern Time : 15.286 seconds
+        Total Time : 22.398 seconds
+l =  900
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 155
+        Minimum found : 8.0883
+        Intern Time : 15.246 seconds
+        Total Time : 22.239 seconds
+l =  1000
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 153
+        Minimum found : 8.0708
+        Intern Time : 15.67 seconds
+        Total Time : 22.872 seconds
+l =  1100
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 155
+        Minimum found : 8.288
+        Intern Time : 15.271 seconds
+        Total Time : 22.323 seconds
+l =  1200
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 155
+        Minimum found : 8.9721
+        Intern Time : 15.205 seconds
+        Total Time : 22.273 seconds
+l =  1300
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 155
+        Minimum found : 8.923
+        Intern Time : 15.227 seconds
+        Total Time : 22.316 seconds
+l =  1400
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 159
+        Minimum found : 8.514
+        Intern Time : 15.267 seconds
+        Total Time : 22.477 seconds
+l =  1500
+
+octave:19> clear ; close all; clc
+octave:20> whos
+octave:21> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+error: roots: inputs must not contain Inf or NaN
+error: called from:
+error:   C:\Octave\Octave-3.8.2\share\octave\3.8.2\m\polynomial\roots.m at line 85, column 5
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 708, column 9
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 527, column 11
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 506, column 8
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 211, column 7
+error:   D:\Books\Technical\DeepLearning\DLprograms\stackedae_exercise\stackedAEExercise.m at line 81, column 22
+octave:21> clear ; close all; clc
+octave:22> whos
+octave:23> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+error: roots: inputs must not contain Inf or NaN
+error: called from:
+error:   C:\Octave\Octave-3.8.2\share\octave\3.8.2\m\polynomial\roots.m at line 85, column 5
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 708, column 9
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 527, column 11
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 506, column 8
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 211, column 7
+error:   D:\Books\Technical\DeepLearning\DLprograms\stackedae_exercise\stackedAEExercise.m at line 81, column 22
+octave:23> clear ; close all; clc
+octave:24> whos
+octave:25> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+error: roots: inputs must not contain Inf or NaN
+error: called from:
+error:   C:\Octave\Octave-3.8.2\share\octave\3.8.2\m\polynomial\roots.m at line 85, column 5
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 708, column 9
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 527, column 11
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 506, column 8
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 211, column 7
+error:   D:\Books\Technical\DeepLearning\DLprograms\stackedae_exercise\stackedAEExercise.m at line 81, column 22
+octave:25> clear ; close all; clc
+octave:26> whos
+octave:27> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+error: roots: inputs must not contain Inf or NaN
+error: called from:
+error:   C:\Octave\Octave-3.8.2\share\octave\3.8.2\m\polynomial\roots.m at line 85, column 5
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 708, column 9
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 527, column 11
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 506, column 8
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 211, column 7
+error:   D:\Books\Technical\DeepLearning\DLprograms\stackedae_exercise\stackedAEExercise.m at line 81, column 22
+octave:27> clear ; close all; clc
+octave:28> whos
+octave:29> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 159
+        Minimum found : 13.196
+        Intern Time : 15.569 seconds
+        Total Time : 23.074 seconds
+l =  100
+
+octave:29> clear ; close all; clc
+octave:30> whos
+octave:31> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 163
+        Minimum found : 13.227
+        Intern Time : 15.386 seconds
+        Total Time : 23.119 seconds
+l =  100
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 9.2157
+        Intern Time : 15.253 seconds
+        Total Time : 22.413 seconds
+l =  200
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 8.6293
+        Intern Time : 15.296 seconds
+        Total Time : 22.472 seconds
+l =  300
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 7.893
+        Intern Time : 15.177 seconds
+        Total Time : 22.296 seconds
+l =  400
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 155
+        Minimum found : 8.4863
+        Intern Time : 15.232 seconds
+        Total Time : 22.405 seconds
+l =  500
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 8.2827
+        Intern Time : 15.264 seconds
+        Total Time : 22.369 seconds
+l =  600
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 155
+        Minimum found : 8.1887
+        Intern Time : 15.396 seconds
+        Total Time : 22.482 seconds
+l =  700
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 157
+        Minimum found : 8.3006
+        Intern Time : 15.308 seconds
+        Total Time : 22.558 seconds
+l =  800
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 159
+        Minimum found : 8.2944
+        Intern Time : 15.23 seconds
+        Total Time : 22.479 seconds
+l =  900
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 161
+        Minimum found : 8.0402
+        Intern Time : 15.224 seconds
+        Total Time : 22.51 seconds
+l =  1000
+
+octave:31> clear ; close all; clc
+octave:32> whos
+octave:33> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+error: 'word_embedding_weights_delta' undefined near line 94 column 46
+error: called from:
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\sparseAutoencoderCost.m at line 94, column 32
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 745, column 23
+error:   D:\Books\Technical\DeepLearning\DLprograms\common\fminlbfgs.m at line 168, column 16
+error:   D:\Books\Technical\DeepLearning\DLprograms\stackedae_exercise\stackedAEExercise.m at line 81, column 22
+octave:33> clear ; close all; clc
+octave:34> whos
+octave:35> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Number of iterations exceeded options.MaxIter or number of function evaluations exceeded options.FunEvals.
+        iterations : 50
+        Function Count : 407
+        Minimum found : 27.72
+        Intern Time : 15.987 seconds
+        Total Time : 36.506 seconds
+l =  100
+    Optimizer Results
+        Algorithm Used: limited memory BFGS (L-BFGS)
+        Exit message : Change in x was smaller than the specified tolerance TolX.
+        iterations : 48
+        Function Count : 653
+        Minimum found : 25.232
+        Intern Time : 16.16 seconds
+        Total Time : 47.573 seconds
+l =  200
+
+octave:35> clear ; close all; clc
+octave:36> whos
+octave:37> stackedAEExercise
+warning: fopen: file found in load path
+warning: fopen: file found in load path
+attempting to save variables to 'octave-workspace'...
+save to 'octave-workspace' complete
